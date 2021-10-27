@@ -1,0 +1,80 @@
+/* Header */
+.header{
+    background: #333;
+    height: 80px;
+    color: white;
+
+    width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}
+
+.header a{
+    color: white;
+}
+
+.logo{
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color: #0b76a6;
+}
+
+.logo .nombreRestaturante{
+    font-family: cursive;
+    display: block;
+    font-weight: 700;
+    font-size: 1.9em;
+    transition: 1s;
+
+
+}
+
+.logo img{
+    width: 90px;
+    position: fixed;
+    margin-top: -25px;
+}
+
+.logo .nombreRestaturante:hover{
+    transform: rotateX(360deg);
+
+}
+
+.logo .abajoNombreRestaturante{
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+}
+/* Menu de navegacion */
+.menuNavegacion{
+    float: right;
+}
+
+.menuNavegacion ul{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+
+.menuNavegacion ul li{
+    display: inline-block;
+	line-height: 80px;
+}
+
+.menuNavegacion ul li a{
+    display: block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+.menuNavegacion ul li a:hover{
+    background: #0b76a6;
+}
+
