@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(37, 21, 14);
+}
+
+section {
+    padding: 3%;
+}
+
+#first-text {
+    width: 30%;
+}
+
+#first {
+    text-align: center;
+}
+
+#first-text {
+    text-align: start;
+    font-size: 1.7vw;
+}
+
+#first > img {
+    width: 60%;
+}
+.text-secundary {
+    font-size: 1.3vw;
+    color: rgb(163, 142, 133);
+}
+.title {
+    text-align: center;
+    font-size: 2.5vw;
+}
