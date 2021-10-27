@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+</head>
+
+<link rel="stylesheet" href="reserva.css">
+
+<header>
+
+    ESTO ES EL HEADER
+</header>
+
+
+<body>
+    
+
+    <form action="/action_page.php">
+        <div class="container">
+          <h1>Reserva</h1>
+          <p>Introduce los datos para la reserva:</p>
+          <hr>
+      
+          <label for="nombre"><b>Nombre y Apellidos</b></label>
+          <input type="text" placeholder="Introduce nombre completo" name="nombre" id="nombre" required>
+      
+
+       
+
+
+
+          <div id="linea">
+                <div id="divFecha">
+
+                <label for="comensales"><b>Comensales</b></label>
+                
+                <select name="comensales" id="comensales">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    
+                    
+                </select>
+
+                </div>
+            
+            
+                
+
+                <div id="divComen">
+
+
+                    <label for="fecha"><b>Fecha</b></label>
+                    
+                    <input type="date" name="fecha" id="fecha" required>
+                    <input type="time" name="time" id="time" required>
+                    
+                </div>
+            </div>
+
+
+
+
+
+
+            <hr>
+            <br>
+            <div id="divAlerg">
+
+            <label for="alergenos"><b>Alérgenos</b></label>
+            <br>
+            <textarea name="alergenos" id="alergenos" cols="100%" rows="10" placeholder="Introduce las intolerancias o alergias alimenticias:"></textarea>
+
+            </div>
+            
+            <br>
+            <fieldset>
+            <p>Al reservar estás aceptando nuestros <a href="#">Terminos y Condiciones</a>.</p>
+        
+            <button type="submit" class="registerbtn">Reservar</button>
+
+        </fieldset>
+        </div>
+        
+       
+      </form>
+
+
+
+</body>
+
+<footer>
+
+
+    ESTO ES EL FOOTER
+</footer>
+</html>
