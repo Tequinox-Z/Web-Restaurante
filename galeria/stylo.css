@@ -1,0 +1,50 @@
+img {
+  width: 600px;
+  height: 400px;
+}
+/*Contenedores galeria*/
+div.galeria {
+  border: 1px solid ;
+}
+/*Imagenes del contenedor galeria*/
+div.galeria img {
+  width: 100%;
+  height: auto;
+}
+
+/*Texto de las imagenes*/
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+ /*facilita dimesion de la caja*/
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0.6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+@media only screen and (max-width: 380px) {ejecuta solo en pantalla como maximo de 320px
+  .responsive{
+    width: 50%;
+    margin: 6px;
+  }
+}
+
+@media only screen and (max-width: 850px){/*solo pantalla y como maximo 700 anchura*/
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .responsive {
+    width: 25%;
+  }
+}
+
