@@ -28,21 +28,21 @@ div.desc {
   width: 24.99999%;
 }
 
-
-@media only screen and (max-width: 380px) {ejecuta solo en pantalla como maximo de 320px
+/*Telefonos*/
+@media only screen and (max-width: 600px) {ejecuta solo en pantalla como maximo de 320px
   .responsive{
     width: 50%;
     margin: 6px;
   }
 }
 
-@media only screen and (max-width: 850px){/*solo pantalla y como maximo 700 anchura*/
+@media only screen and (min-width: 768px){/*solo pantalla y como maximo 700 anchura*/
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 992px) {
   .responsive {
     width: 25%;
   }
