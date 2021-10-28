@@ -1,100 +1,231 @@
 
+/* PANTALLAS */
+@media (min-width: 851px) {
+   
+        
+    body {
+        font-family: Arial, Helvetica, sans-serif; /*Tipografia general*/
+        background-color: black;                /*Fondo tras formulario*/
+    }
 
-body {
-    font-family: Arial, Helvetica, sans-serif; /*Tipografia general*/
-    background-color: black;                /*Fondo tras formulario*/
-}
+    * {
+        box-sizing: border-box;
+    }
 
-* {
-    box-sizing: border-box;
-}
+    /* Add padding to containers */
+    .container {
+        padding: 16px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 20%;
+        margin-right: 20%;
+        
+    }
 
-/* Add padding to containers */
-.container {
-    padding: 16px;
-    background-color: rgb(255, 255, 255);
-    margin-left: 20%;
-    margin-right: 20%;
-    
-}
-
-/* Formato inputs */
-input[type=text], input[type=password], .alergenos{
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-}
-
-
-select{
-    
-    width: 31%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-}
+    /* Formato inputs */
+    input[type=text], input[type=password], .alergenos, textarea{
+        width: 50%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+        
+    }
 
 
-/* Colorea el fondo mientras se escribe */
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-
-/* Overwrite default styles of hr */
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-}
+    select{
+        
+        width: 50%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+    }
 
 
-br {
-    
-    margin-bottom: 5px;
-}
+    /* Colorea el fondo mientras se escribe */
+    input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
 
-/* Botón de reserva */
-.registerbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
-.registerbtn:hover {
-    opacity: 1;
-}
-
-/* Terminos y condiciones-link azul */
-a {
-    color: dodgerblue;
-}
+    /* Overwrite default styles of hr */
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
 
 
-#divAlerg{
-    
+    br {
+        
+        margin-bottom: 5px;
+    }
 
-    clear: both;
-    
-}
+    /* Botón de reserva */
+    .registerbtn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .registerbtn:hover {
+        opacity: 1;
+    }
+
+    /* Terminos y condiciones-link azul */
+    a {
+        color: dodgerblue;
+    }
 
 
+    #divAlerg{
+        
+        display: flex;
+        align-items: center;
+        
+    }
 
-#divFecha{
+    textarea{
 
-    background-color: chartreuse;
-   display: inline-block;
-}
 
-#divComen{
+        width: 50%;
+    }
 
+
+    label{
     display: inline-block;
-    background-color: darkgoldenrod;
+    width: 180px;
+
+    }
+
+    fieldset label{
+    display: inline;
+
+    }
+
+
 }
+
+
+
+
+/* TABLETS */
+@media (min-width: 451px) and (max-width: 850px) {
+
+
+    body {
+        font-family: Arial, Helvetica, sans-serif; /*Tipografia general*/
+        background-color: rgb(185, 8, 8);                /*Fondo tras formulario*/
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Add padding to containers */
+    .container {
+        padding: 16px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 20%;
+        margin-right: 20%;
+        
+    }
+
+    /* Formato inputs */
+    input[type=text], input[type=password], .alergenos, textarea{
+        width: 50%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+        
+    }
+
+
+    select{
+        
+        width: 50%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+    }
+
+
+    /* Colorea el fondo mientras se escribe */
+    input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+
+    /* Overwrite default styles of hr */
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+
+
+    br {
+        
+        margin-bottom: 5px;
+    }
+
+    /* Botón de reserva */
+    .registerbtn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .registerbtn:hover {
+        opacity: 1;
+    }
+
+    /* Terminos y condiciones-link azul */
+    a {
+        color: dodgerblue;
+    }
+
+
+    #divAlerg{
+        
+        display: flex;
+        align-items: center;
+        
+    }
+
+    textarea{
+
+
+        width: 50%;
+    }
+
+
+    label{
+    display: inline-block;
+    width: 180px;
+
+    }
+
+    fieldset label{
+    display: inline;
+
+    }
+
+
+
+
+}
+
+
+/* MOVIL */
+@media (max-width: 450px) {}

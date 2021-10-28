@@ -20,12 +20,17 @@
 
     <form action="/action_page.php">
         <div class="container">
-          <h1>Reserva</h1>
-          <p>Introduce los datos para la reserva:</p>
+          <h3>Reserve</h3>
+         
           <hr>
       
-          <label for="nombre"><b>Nombre y Apellidos</b></label>
-          <input type="text" placeholder="Introduce nombre completo" name="nombre" id="nombre" required>
+          <label for="nombre"><b>Name and Surname</b></label>
+          <input type="text" placeholder="Enter name and surname" name="nombre" id="nombre" required>
+
+        <br>
+
+          <label for="tlf"><b>Phone</b></label>
+          <input type="text" placeholder="Enter phone" name="tlf" id="tlf" required>
       
 
        
@@ -35,8 +40,9 @@
           <div id="linea">
                 <div id="divFecha">
 
-                <label for="comensales"><b>Comensales</b></label>
-                
+                <label for="comensales"><b>Number of People</b></label>
+             
+
                 <select name="comensales" id="comensales">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -58,7 +64,7 @@
                 <div id="divComen">
 
 
-                    <label for="fecha"><b>Fecha</b></label>
+                    <label for="fecha"><b>Date</b></label>
                     
                     <input type="date" name="fecha" id="fecha" required>
                     <input type="time" name="time" id="time" required>
@@ -67,25 +73,47 @@
             </div>
 
 
+            <div>
+
+
+                
+                <br>
+                
+                <label for=""><b> Place: </b></label>
+                <input type="radio" id="int" name="place" value="int">
+                <label for="int">Indoor</label>
+                <input type="radio" id="ext" name="place" value="ext">
+                <label for="ext">Outdoor</label>
+
+            </div>
+
+
 
 
 
 
             <hr>
-            <br>
+            
             <div id="divAlerg">
 
-            <label for="alergenos"><b>Alérgenos</b></label>
-            <br>
-            <textarea name="alergenos" id="alergenos" cols="100%" rows="10" placeholder="Introduce las intolerancias o alergias alimenticias:"></textarea>
+            <label for="alergenos"><b>Allergens</b></label>
+            <textarea name="alergenos" id="alergenos"  rows="1" placeholder="Enter allergens:"></textarea>
+            
 
             </div>
             
-            <br>
+            
             <fieldset>
-            <p>Al reservar estás aceptando nuestros <a href="#">Terminos y Condiciones</a>.</p>
-        
-            <button type="submit" class="registerbtn">Reservar</button>
+                
+
+            <input type="checkbox" name="terminos" id="terminos">
+            <label for="terminos">Accept <a href="#">Term and Conditions</a></label>
+
+
+
+
+
+            <button type="submit" class="registerbtn">Reserve</button>
 
         </fieldset>
         </div>
