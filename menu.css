@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(#daa5a5, #493533);
+    font-family: sans-serif;
+  }
+
+  div {
+    margin: 0.5em;
+  }
+
+  #bq1{
+    width: 100%;
+  }
+
+  #frios {
+    border: 2px solid rgb(56, 53, 53);
+    border-radius: 25px;
+    float: left;
+  }
+
+  #ensaladas {
+    border: 2px solid rgb(56, 53, 53);
+    border-radius: 25px;
+    float: right;
+    position: relative;
+    bottom: 2.2em;
+
+  }
+
+  #guisos {
+    float: left;
+  }
+
+  #fritos {
+    float: right;
+  }
+
+  #carnes {
+    float: left;
+  }
+
+  #arroces {
+    float: right;
+  }
+
+  #revueltos {
+    float: left;
+  }
+  
+  #postres {
+    float: left;
+  }
