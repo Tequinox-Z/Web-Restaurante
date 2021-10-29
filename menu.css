@@ -3,8 +3,18 @@ body {
     font-family: sans-serif;
   }
 
+h1{
+  text-align: center;
+}
+
+li{
+  list-style: none;
+}
+
   div {
     margin: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 
   #bq1{
@@ -12,34 +22,77 @@ body {
   }
 
   #frios {
-    border: 2px solid rgb(56, 53, 53);
+    border: 3px solid rgb(56, 53, 53);
     border-radius: 25px;
     float: left;
+    margin-left: 10em;
+  }
+
+  #salmorejo{
+    margin-left: 5.5em;
+    margin-top: 0.5em;
   }
 
   #ensaladas {
-    border: 2px solid rgb(56, 53, 53);
+    border: 3px solid rgb(56, 53, 53);
     border-radius: 25px;
-    float: right;
+    float: left;
     position: relative;
-    bottom: 2.2em;
+    bottom: 2.4em;
 
+  }
+
+  #cesar{
+    margin-left: 5.5em;
+    margin-top: 1.7em;
+  }
+
+
+  #bq2{
+    width: 100%
   }
 
   #guisos {
+    border: 3px solid rgb(56, 53, 53);
+    border-radius: 25px;
     float: left;
+    margin-left: 10em;
+  }
+
+  #carrillada{
+    margin-left: 5.5em;
+    margin-top: 0.5em;
   }
 
   #fritos {
-    float: right;
+    border: 3px solid rgb(56, 53, 53);
+    border-radius: 25px;
+    float: left;
+    position: relative;
+  }
+
+  #croquetas{
+    margin-left: 5.5em;
+    margin-top: 0.5em;
   }
 
   #carnes {
+    border: 3px solid rgb(56, 53, 53);
+    border-radius: 25px;
     float: left;
+    margin-left: 10em;
+  }
+
+  #presa{
+    margin-left: 5.5em;
+    margin-top: 0.5em;
   }
 
   #arroces {
-    float: right;
+    border: 3px solid rgb(56, 53, 53);
+    border-radius: 25px;
+    float: left;
+    position: relative;
   }
 
   #revueltos {
