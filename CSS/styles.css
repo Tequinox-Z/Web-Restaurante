@@ -6,7 +6,24 @@
 }
 
 body {
-    background-color: rgb(37, 21, 14);
+    background-repeat: no-repeat;
+}
+
+#first-section {
+    background: linear-gradient(rgb(104, 60, 42),black);
+}
+
+span {
+    filter: grayscale();
+}
+
+html {
+    background-color: black;
+}
+
+.text-secundary {
+    font-size: 1.3vw;
+    color: rgb(165, 130, 120);
 }
 
 section {
@@ -14,26 +31,70 @@ section {
 }
 
 #first-text {
-    width: 30%;
+    width: 40%;
 }
 
 #first {
     text-align: center;
 }
 
+@media only screen and (max-width: 650px) {
+    #first-text {
+        text-align: center;
+        width: 100%;
+    }
+
+    #first-text > h1 {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    #first-text > p {
+        text-align: center;
+        margin-top: 4px;
+        font-size: 10px;
+    }
+
+    #sabores {
+        font-size: 15px;
+    }
+
+    #info-1 {
+        text-align: center;
+    }
+    #food-img {
+        width: 80%;
+        border-radius: 50%;
+    }
+
+    hr {
+        border-color: white;
+    }
+}
+
+@media only screen and (max-width: 1300px) { 
+    hr {
+        border-color: transparent;
+    }
+
+}
+
 #first-text {
     text-align: start;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
 }
 
 #first > img {
     width: 60%;
 }
-.text-secundary {
-    font-size: 1.3vw;
-    color: rgb(163, 142, 133);
-}
+
 .title {
+    transition: 1s;
     text-align: center;
     font-size: 2.5vw;
+}
+
+#info-1 {
+    margin-top: 30px;
 }
