@@ -8,12 +8,12 @@
         background-color: black;                /*Fondo tras formulario*/
     }
 
-    * {
+    form * {
         box-sizing: border-box;
     }
 
     /* Add padding to containers */
-    .container {
+    form  .container {
         padding: 16px;
         background-color: rgb(255, 255, 255);
         margin-left: 20%;
@@ -22,19 +22,19 @@
     }
 
     /* Formato inputs */
-    input[type=text], input[type=password], .alergenos, textarea{
-        width: 50%;
+    form input[type=date],form input[type=time], form input[type=text], form input[type=password], form .alergenos,form  textarea{
+        width: 64%;
         padding: 15px;
-        margin: 5px 0 22px 0;
+        margin: 5px 0 5px 0;
         border: none;
         background: #f1f1f1;
         
     }
 
 
-    select{
+    form select{
         
-        width: 50%;
+        width: 64%;
         padding: 15px;
         margin: 5px 0 22px 0;
         border: none;
@@ -43,25 +43,25 @@
 
 
     /* Colorea el fondo mientras se escribe */
-    input[type=text]:focus, input[type=password]:focus {
+    form input[type=date],form input[type=time], form  input[type=text]:focus,form  input[type=password]:focus {
         background-color: #ddd;
         outline: none;
     }
 
     /* Overwrite default styles of hr */
-    hr {
+    form   hr {
         border: 1px solid #f1f1f1;
         margin-bottom: 25px;
     }
 
 
-    br {
+    form  br {
         
         margin-bottom: 5px;
     }
 
     /* Botón de reserva */
-    .registerbtn {
+    form  .registerbtn {
         background-color: #04AA6D;
         color: white;
         padding: 16px 20px;
@@ -72,37 +72,56 @@
         opacity: 0.9;
     }
 
-    .registerbtn:hover {
+    form  .registerbtn:hover {
         opacity: 1;
     }
 
     /* Terminos y condiciones-link azul */
-    a {
+    form  a {
         color: dodgerblue;
     }
 
 
-    #divAlerg{
+    form  #divAlerg{
         
         display: flex;
         align-items: center;
         
     }
 
-    textarea{
+    form textarea{
 
 
-        width: 50%;
+        width: 64%;
     }
 
 
-    label{
+    form .divRadio{
+        display: inline-block;
+        
+    }
+
+
+    form .place{
+        
+        background-color: brown;
+    }
+
+   
+
+
+
+
+
+
+    form  label{
     display: inline-block;
-    width: 180px;
+
+    width: 155px;
 
     }
 
-    fieldset label{
+    form  fieldset label{
     display: inline;
 
     }
@@ -122,23 +141,24 @@
         background-color: rgb(185, 8, 8);                /*Fondo tras formulario*/
     }
 
-    * {
+    form  * {
         box-sizing: border-box;
     }
 
     /* Add padding to containers */
-    .container {
-        padding: 16px;
+    form  .container {
+        padding: 6px;
         background-color: rgb(255, 255, 255);
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 15%;
+        margin-right: 15%;
         
     }
 
     /* Formato inputs */
-    input[type=text], input[type=password], .alergenos, textarea{
-        width: 50%;
+    form input[type=text], form input[type=date],form input[type=time], form input[type=password], form .alergenos,form  textarea{
+        width: 100%;
         padding: 15px;
+        
         margin: 5px 0 22px 0;
         border: none;
         background: #f1f1f1;
@@ -146,9 +166,9 @@
     }
 
 
-    select{
+    form select{
         
-        width: 50%;
+        width: 100%;
         padding: 15px;
         margin: 5px 0 22px 0;
         border: none;
@@ -157,25 +177,25 @@
 
 
     /* Colorea el fondo mientras se escribe */
-    input[type=text]:focus, input[type=password]:focus {
+    form input[type=date],form input[type=time], form  input[type=text]:focus, form input[type=password]:focus {
         background-color: #ddd;
         outline: none;
     }
 
     /* Overwrite default styles of hr */
-    hr {
+    form  hr {
         border: 1px solid #f1f1f1;
         margin-bottom: 25px;
     }
 
 
-    br {
+    form br {
         
         margin-bottom: 5px;
     }
 
     /* Botón de reserva */
-    .registerbtn {
+    form  .registerbtn {
         background-color: #04AA6D;
         color: white;
         padding: 16px 20px;
@@ -186,37 +206,50 @@
         opacity: 0.9;
     }
 
-    .registerbtn:hover {
+    form .registerbtn:hover {
         opacity: 1;
     }
 
     /* Terminos y condiciones-link azul */
-    a {
+    form   a {
         color: dodgerblue;
     }
 
 
-    #divAlerg{
+    form #divAlerg{
         
-        display: flex;
+        display: block;
         align-items: center;
         
     }
 
-    textarea{
-
-
-        width: 50%;
+    
+    
+    form textarea{
+        
+        
+        width: 100%;
+    }
+    
+    
+    form  label{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        
+    }
+    form .divRadio{
+       text-align: center;
     }
 
-
-    label{
-    display: inline-block;
-    width: 180px;
-
+    form .divRadio label{
+        display: inline-table;
+        width: 10px;
+        text-align: center;
+        
     }
-
-    fieldset label{
+    
+    form fieldset label{
     display: inline;
 
     }
