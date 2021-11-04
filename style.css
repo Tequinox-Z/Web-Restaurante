@@ -79,6 +79,43 @@ html{
     .menuNavegacion ul li a:hover{
         background: rgba(255, 255, 255, 0.384);
     }
+
+    .indicadorPaginaHome{
+       color: white;
+       font-size: 50px;
+       position: absolute;
+       margin-top: -79px;
+       margin-left: 18px;
+    }
+    .indicadorPaginaMenu{
+        color: white;
+       font-size: 50px;
+       position: absolute;
+       margin-top: -79px;
+       margin-left: 18px;
+    }
+    .indicadorPaginaGaleria{
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        margin-top: -79px;
+        margin-left: 21px;
+    }
+
+    .indicadorPaginaReserva{
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        margin-top: -79px;
+        margin-left: 25px;
+    }
+    .indicadorPaginaContacto{
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        margin-top: -79px;
+        margin-left: 27px;
+    }
     
     
     
