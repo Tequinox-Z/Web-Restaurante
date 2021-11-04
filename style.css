@@ -4,6 +4,10 @@ html{
     position: relative
     
 }
+body{
+    margin-top: 80px;
+    margin-bottom: 300px;
+}
     /* Header */
     .header{
         background: #333;
@@ -224,6 +228,11 @@ html{
 /* -------Footer y Header para tablet--------- */
 
 @media screen and (min-width: 451px) and (max-width:850px){
+    body{
+        margin-top: 80px;
+        margin-bottom: 600px;
+    }
+
     #botonMenu{
         display: none;
     }
@@ -313,6 +322,10 @@ html{
 /* -------Footer y Header para movil--------- */
 
 @media screen and (max-width: 450px){
+    body{
+        margin-top: 80px;
+        margin-bottom: 600px;
+    }
 
     #botonMenu{
         display: none;
