@@ -39,6 +39,7 @@ li{
     float: left;
     position: relative;
     bottom: 2.4em;
+    margin-bottom: -1.8em;
 
   }
 
@@ -76,6 +77,10 @@ li{
     margin-top: 0.5em;
   }
 
+  #bq3{
+    width: 100%
+  }
+
   #carnes {
     border: 3px solid rgb(56, 53, 53);
     border-radius: 25px;
@@ -95,10 +100,27 @@ li{
     position: relative;
   }
 
-  #revueltos {
-    float: left;
+  #arroz{
+    margin-left: 5.5em;
+    margin-top: 2.8em;
+  }
+
+  #bq4{
+    width: 100%;
   }
   
-  #postres {
+
+  #revueltos {
+    border: 3px solid rgb(56, 53, 53);
+    border-radius: 25px;
     float: left;
+    margin-left: 10em;
+  }
+  
+
+  #postres {
+    border: 3px solid rgb(56, 53, 53);
+    border-radius: 25px;
+    float: left;
+    position: relative;
   }
