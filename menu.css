@@ -1,3 +1,4 @@
+
 body {
     background: linear-gradient(#daa5a5, #493533);
     font-family: sans-serif;
@@ -11,116 +12,27 @@ li{
   list-style: none;
 }
 
-  div {
-    margin: 0.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-  }
+ 
 
-  #bq1{
-    width: 100%;
-  }
-
-  #frios {
-    border: 3px solid rgb(56, 53, 53);
-    border-radius: 25px;
-    float: left;
-    margin-left: 10em;
-  }
-
-  #salmorejo{
-    margin-left: 5.5em;
-    margin-top: 0.5em;
-  }
-
-  #ensaladas {
-    border: 3px solid rgb(56, 53, 53);
-    border-radius: 25px;
-    float: left;
-    position: relative;
-    bottom: 2.4em;
-    margin-bottom: -1.8em;
-
-  }
-
-  #cesar{
-    margin-left: 5.5em;
-    margin-top: 1.7em;
-  }
-
-
-  #bq2{
-    width: 100%
-  }
-
-  #guisos {
-    border: 3px solid rgb(56, 53, 53);
-    border-radius: 25px;
-    float: left;
-    margin-left: 10em;
-  }
-
-  #carrillada{
-    margin-left: 5.5em;
-    margin-top: 0.5em;
-  }
-
-  #fritos {
-    border: 3px solid rgb(56, 53, 53);
-    border-radius: 25px;
-    float: left;
-    position: relative;
-  }
-
-  #croquetas{
-    margin-left: 5.5em;
-    margin-top: 0.5em;
-  }
-
-  #bq3{
-    width: 100%
-  }
-
-  #carnes {
-    border: 3px solid rgb(56, 53, 53);
-    border-radius: 25px;
-    float: left;
-    margin-left: 10em;
-  }
-
-  #presa{
-    margin-left: 5.5em;
-    margin-top: 0.5em;
-  }
-
-  #arroces {
-    border: 3px solid rgb(56, 53, 53);
-    border-radius: 25px;
-    float: left;
-    position: relative;
-  }
-
-  #arroz{
-    margin-left: 5.5em;
-    margin-top: 2.8em;
-  }
-
-  #bq4{
-    width: 100%;
-  }
   
 
-  #revueltos {
-    border: 3px solid rgb(56, 53, 53);
-    border-radius: 25px;
+  #caja {
+    width: 25%;
+    border: 0.188em solid rgb(56, 53, 53);
+    border-radius: 1.563em;
     float: left;
-    margin-left: 10em;
   }
-  
 
-  #postres {
-    border: 3px solid rgb(56, 53, 53);
-    border-radius: 25px;
-    float: left;
-    position: relative;
+  #texto{
+    width: 80%;
+    height: auto;
   }
+
+  img{
+      width: 50%;
+      height: auto;
+      align-self: center;
+  }
+
+
+  /* @media only screen and (min-width: 1200px) {#caja{width: 33%;}}  */
