@@ -329,6 +329,12 @@ body{
         margin-bottom: 600px;
     }
 
+
+    .pie-pagina{
+        opacity: 1;
+
+    }
+
     #botonMenu{
         display: none;
     }
