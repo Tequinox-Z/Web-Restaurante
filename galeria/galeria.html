@@ -1,192 +1,194 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" href="stylo.css">
-<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
- <meta name="viewport" content="width=device-width">
- <script src="https://kit.fontawesome.com/802c18c7c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylo.css">
+    <meta http-equiv="Content-Type" content="text/html" ; charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <script src="https://kit.fontawesome.com/802c18c7c7.js" crossorigin="anonymous"></script>
 </head>
 
 
 <header class="header">
-      <div class="divHeader">
-          <span class="logo">
+    <div class="divHeader">
+        <span class="logo">
               <a href="index.html" class="enlaceLogo">
                     <img src="img/Logo.png">
               </a>
           </span>
-          <input type="checkbox" id="botonMenu">
-          <label for="botonMenu" class="labelBoton"><img src="img/IconoMenu.png"></label>
+        <input type="checkbox" id="botonMenu">
+        <label for="botonMenu" class="labelBoton"><img src="img/IconoMenu.png"></label>
 
-          <nav class="menuNavegacion">
+        <nav class="menuNavegacion">
             <ul>
-              <li><a href="home.html">Home<p class="indicadorPaginaHome">.</p></a></li>
-              <li><a href="menu.html">Menú<p class="indicadorPaginaMenu">.</p></a></li>
-              <li><a href="galeria.html">Galería<p class="indicadorPaginaGaleria">.</p></a></li>
-              <li><a href="reserva.html">Reserva<p class="indicadorPaginaReserva">.</p></a></li>
-              <li><a href="contacto.html">Contacto<p class="indicadorPaginaContacto">.</p></a></li>
+                <li><a href="home.html">Home<p class="indicadorPaginaHome">.</p></a></li>
+                <li><a href="menu.html">Menú<p class="indicadorPaginaMenu">.</p></a></li>
+                <li><a href="galeria.html">Galería<p class="indicadorPaginaGaleria">.</p></a></li>
+                <li><a href="reserva.html">Reserva<p class="indicadorPaginaReserva">.</p></a></li>
+                <li><a href="contacto.html">Contacto<p class="indicadorPaginaContacto">.</p></a></li>
             </ul>
-          </nav>
-      </div>
-  </header>
+        </nav>
+    </div>
+</header>
 
 
 
 
 <body>
 
-<h2 class="galeriaApartado">Galeria</h2>
-<h2 class="galeriaApartado">Carnes : </h2>
-<div id="postres">
-<div class="responsive">
-  <div class="galeria">
-    <a href="imagenes/CarneALaParrilla1.jpg">
-      <img src="imagenes/CarneALaParrilla1.jpg" alt="Cinque Terre">
-    </a>
-    <div class="desc">Carne a la Parrilla</div>
-  </div>
-</div>
+    <h1 class="tituloGaleria">Galeria</h1>
+    <h2 class="galeriaApartado">Carne : </h2>
+    <div id="postres">
+        <div class="responsive">
+            <div class="galeria">
+                <a id="imagenAmpl" onclick="window.open('imagenes/CarneALaParrilla1.jpg','_blank','Carne a la parrilla')">
+                    <img id="imag" src=" imagenes/CarneALaParrilla1.jpg " alt="Cinque Terre ">
+                </a>
+
+                <div class="desc ">Carne a la Parrilla</div>
+            </div>
+        </div>
 
 
-<div class="responsive">
-  <div class="galeria">
-    <a href="imagenes/corderoAsado11.jpg">
-      <img src="imagenes/corderoAsado11.jpg" alt="carneCordero" >
-    </a>
-    <div class="desc">Carne de cordero</div>
-  </div>
-</div>
+        <div class="responsive ">
+            <div class="galeria ">
+                <a onclick="window.open('imagenes/corderoAsado1.jpg','_blank','Cordero Asado')">
+                    <img src="imagenes/corderoAsado1.jpg " alt="carneCordero ">
+                </a>
+                <div class="desc ">Carne de cordero</div>
+            </div>
+        </div>
 
-<div class="responsive">
-  <div class="galeria">
-    <a href="imagenes/Plumaiberica11.jpg">
-      <img src="imagenes/Plumaiberica11.jpg" alt="Plumaiberica" >
-    </a>
-    <div class="desc">PlumaIbérica</div>
-  </div>
-</div>
+        <div class="responsive ">
+            <div class="galeria ">
+                <a onclick="window.open('imagenes/Plumaiberica11.jpg','_blank','Pluma Iberica')">
+                    <img src="imagenes/Plumaiberica11.jpg " alt="Plumaiberica ">
+                </a>
+                <div class="desc ">PlumaIbérica</div>
+            </div>
+        </div>
 
-<div class="responsive">
-  <div class="galeria">
-    <a href="imagenes/milanesa2.jpg">
-      <img src="imagenes/milanesa3.jpg" alt="milanesa">
-    </a>
-    <div class="desc">La Milanesa </div>
-  </div>
-</div>
-</br>
-<h2 class="galeriaApartado">Pescados :</h2>
-<!--Pescado -->
-<div class="responsive">
-  <div class="galeria">
-    <a href="imagenes/ElsalmonetedeCasaGerardo.jpg">
-      <img src="imagenes/ElsalmonetedeCasaGerardo.jpg" alt="ElsalmonetedeCasaGerardo" width= "600" height= "400">
-    </a>
-    <div class="desc">El salmonete de Casa Gerardo</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="galeria">
-    <a href="imagenes/AtunrojosalvajedeAlmadrabaenelcampero2.jpg">
-      <img src="imagenes/AtunrojosalvajedeAlmadrabaenelcampero2.jpg" alt="AtunrojosalvajedeAlmadrabaenelcampero2" width= "600" height= "400">
-    </a>
-    <div class="desc">Atun rojo salvaje de Almadraba</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="galeria">
-    <a href="imagenes/DoradaALaBrasa.jpg">
-      <img src="imagenes/DoradaALaBrasa.jpg" alt="dorada a la brasa" width= "600px" height= "400px" >
-    </a>
-    <div class="desc">Dorada a la brasa</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="galeria">
-    <a href="imagenes/pulpoALaGallega.jpg">
-      <img src="imagenes/pulpoALaGallega.jpg" alt="pulpoALaGallega.jpg" height="400" width= "600">
-    </a>
-    <div class="desc">Pulpo a la gallega o a la feira  </div>
-  </div>
-</div>
-<br>
-<!--Postres-->
-<h2 class="galeriaApartado">Postres </h2>
-<div class="responsive">
-  <div class="galeria">
-    <a href="imagenes/Tartadequesosinhorno.jpg">
-      <img src="imagenes/Tartadequesosinhorno.jpg" alt="Tartadequesosinhorno" width= "600" height= "400">
-    </a>
-    <div class="desc">Tarta de queso sin horno</div>
-  </div>
-</div>
+        <div class="responsive ">
+            <div class="galeria ">
+                <a onclick="window.open('imagenes/milanesa2.jpg ','_blank','Milanesa')">
+                    <img src="imagenes/milanesa2.jpg " alt="milanesa ">
+                </a>
+                <div class="desc ">La Milanesa </div>
+            </div>
+        </div>
+        </br>
+        <h2 class="galeriaApartado ">Pescado :</h2>
+        <!--Pescado -->
+        <div class="responsive ">
+            <div class="galeria ">
+                <a onclick="window.open('imagenes/ElsalmonetedeCasaGerardo.jpg ','_blank','El salmonete ')">
+                    <img src="imagenes/ElsalmonetedeCasaGerardo.jpg " alt="ElsalmonetedeCasaGerardo " width="600 " height="400 ">
+                </a>
+                <div class="desc ">El salmonete </div>
+            </div>
+        </div>
 
 
-<div class="responsive">
-  <div class="galeria">
-    <a href="imagenes/CheesecakeTradicionalConHorno1.jpg">
-      <img src="imagenes/CheesecakeTradicionalConHorno1.jpg" alt="CheesecakeTradicionalConHorno" width= "600" height= "400">
-    </a>
-    <div class="desc">Cheesecake Tradicional</div>
-  </div>
-</div>
+        <div class="responsive ">
+            <div class="galeria ">
+                <a onclick="window.open('imagenes/AtunrojosalvajedeAlmadrabaenelcampero2.jpg ','_blank','Atun rojo salvaje ')">
+                    <img src="imagenes/AtunrojosalvajedeAlmadrabaenelcampero2.jpg " alt="AtunrojosalvajedeAlmadrabaenelcampero2 " width="600 " height="400 ">
+                </a>
+                <div class="desc ">Atun rojo salvaje </div>
+            </div>
+        </div>
 
-<div class="responsive">
-  <div class="galeria">
-    <a href="imagenes/FlanDeQuesoEnThermomix1.jpg">
-      <img src="imagenes/FlanDeQuesoEnThermomix1.jpg" alt="FlanDeQuesoEnThermomix" width= "600" height= "400">
-    </a>
-    <div class="desc">Flan De Queso</div>
-  </div>
-</div>
+        <div class="responsive ">
+            <div class="galeria ">
+                <a onclick="window.open('imagenes/DoradaALaBrasa.jpg ','_blank','Dorada a la brasa ')">
+                    <img src="imagenes/DoradaALaBrasa.jpg " alt="dorada a la brasa " width="600px " height="400px ">
+                </a>
+                <div class="desc ">Dorada a la brasa</div>
+            </div>
+        </div>
 
-<div class="responsive">
-  <div class="galeria">
-    <a href="imagenes/ArrozConLeche.jpg">
-      <img src="imagenes/ArrozConLeche.jpg" alt="arrozConLeche" width= "600" height= "400">
-    </a>
-    <div class="desc">Arroz con Leche</div>
-  </div>
-</div>
+        <div class="responsive ">
+            <div class="galeria ">
+                <a onclick="window.open('imagenes/pulpoALaGallega.jpg','_blank','Pulpo a la gallega')">
+                    <img src="imagenes/pulpoALaGallega.jpg " alt="pulpoALaGallega.jpg " height="400 " width="600 ">
+                </a>
+                <div class="desc ">Pulpo a la gallega</div>
+            </div>
+        </div>
+        <br>
+        <!--Postres-->
+        <h2 class="galeriaApartado ">Pasteles: </h2>
+        <div class="responsive ">
+            <div class="galeria ">
+                <a onclick="window.open('imagenes/Tartadequesosinhorno.jpg ','_blank','Tarta de queso')">
+                    <img src="imagenes/Tartadequesosinhorno.jpg " alt="Tartadequesosinhorno " width="600 " height="400 ">
+                </a>
+                <div class="desc ">Tarta de queso</div>
+            </div>
+        </div>
 
 
+        <div class="responsive ">
+            <div class="galeria ">
+                <a onclick="window.open('imagenes/CheesecakeTradicionalConHorno1.jpg ','_blank','ChesseCake tradicional')">
+                    <img src="imagenes/CheesecakeTradicionalConHorno1.jpg " alt="CheesecakeTradicionalConHorno " width="600 " height="400 ">
+                </a>
+                <div class="desc ">Pastel de Queso</div>
+            </div>
+        </div>
+
+        <div class="responsive ">
+            <div class="galeria ">
+                <a onclick="window.open('imagenes/FlanDeQuesoEnThermomix1.jpg ','_blank','Flan de queso')">
+                    <img src="imagenes/FlanDeQuesoEnThermomix1.jpg " alt="FlanDeQuesoEnThermomix " width="600 " height="400 ">
+                </a>
+                <div class="desc ">Flan De Queso</div>
+            </div>
+        </div>
+
+        <div class="responsive ">
+            <div class="galeria ">
+                <a onclick="window.open('imagenes/ArrozConLeche.jpg ','_blank','Arroz con leche ')">
+                    <img src="imagenes/ArrozConLeche.jpg " alt="arrozConLeche " width="600 " height="400 ">
+                </a>
+                <div class="desc ">Arroz con Leche</div>
+            </div>
+        </div>
+
+    </div>
 </body>
 
-<footer class="pie-pagina">
-        <div class="grupo-1">
-            <div class="box">
-                <figure>
-                    <a href="#">
-                        <img src="img/Logo.png" alt="Logo">
-                    </a>
-                </figure>
-            </div>
-            <div class="box sobreNosotros">
-                <h2>SOBRE NOSOTROS</h2>
-                <ul>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Condiciones</a></li>
-                    <li><a href="#">Reserva ya cojones</a></li>
-                </ul>
-            </div>
-            <div class="box">
-                <h2>SIGUENOS</h2>
-                <div class="red-social">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                </div>
-            </div>    
+<footer class="pie-pagina ">
+    <div class="grupo-1 ">
+        <div class="box ">
+            <figure>
+                <a href="# ">
+                    <img src="img/Logo.png " alt="Logo ">
+                </a>
+            </figure>
         </div>
-        <div class="grupo-2">
-            <small>&copy; 2021 <b>Benavides</b> - Todos los Derechos Reservados.</small>
+        <div class="box sobreNosotros ">
+            <h2>SOBRE NOSOTROS</h2>
+            <ul>
+                <li><a href="# ">Contacto</a></li>
+                <li><a href="# ">Condiciones</a></li>
+                <li><a href="# ">Reserva ya cojones</a></li>
+            </ul>
         </div>
-    </footer>
+        <div class="box ">
+            <h2>SIGUENOS</h2>
+            <div class="red-social ">
+                <a href="# " class="fa fa-facebook "></a>
+                <a href="# " class="fa fa-instagram "></a>
+                <a href="# " class="fa fa-twitter "></a>
+                <a href="# " class="fa fa-youtube "></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2 ">
+        <small>&copy; 2021 <b>Benavides</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
 
 
 
