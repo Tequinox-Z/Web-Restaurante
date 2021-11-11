@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Reserva</title>
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="styleReserva.css" />
+        <link rel="stylesheet" type="text/css" href="reserva.css" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://kit.fontawesome.com/802c18c7c7.js" crossorigin="anonymous"></script>
+      </head>
+      
+      <header class="header">
+          <div class="divHeader">
+              <span class="logo">
+                  <a href="index.html" class="enlaceLogo">
+                        <img src="img/Logo.png">
+                  </a>
+              </span>
+              <input type="checkbox" id="botonMenu">
+              <label for="botonMenu" class="labelBoton"><img src="img/IconoMenu.png"></label>
+    
+              <nav class="menuNavegacion">
+                <ul>
+                  <li><a href="home.html">Home<p class="indicadorPaginaHome"></p></a></li>
+                  <li><a href="menu.html">Menú<p class="indicadorPaginaMenu"></p></a></li>
+                  <li><a href="galeria.html">Galería<p class="indicadorPaginaGaleria"></p></a></li>
+                  <li><a href="reserva.html">Reserva<p class="indicadorPaginaReserva">.</p></a></li>
+                  <li><a href="contacto.html">Contacto<p class="indicadorPaginaContacto"></p></a></li>
+                </ul>
+              </nav>
+          </div>
+      </header>
+
+<body class="bodyReserva">
+    
+
+    <form action="/action_page.php">
+        <div class="container">
+          <h3>Reserve</h3>
+         
+          <hr>
+      
+          <label for="nombre"><b>Name and Surname</b></label>
+          <input type="text" placeholder="Enter name and surname" name="nombre" id="nombre" required>
+
+        <br>
+
+          <label for="tlf"><b>Phone</b></label>
+          <input type="text" placeholder="Enter phone" name="tlf" id="tlf" required>
+      
+
+       
+
+
+
+          <div id="linea">
+                <div id="divFecha">
+
+                <label for="comensales"><b>Number of People</b></label>
+             
+
+                <select name="comensales" id="comensales">
+                    <option value="" disabled selected>Number of People</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    
+                    
+                </select>
+
+                </div>
+            
+            
+                
+
+                <div id="divComen">
+
+
+                    <label for="fecha"><b>Date</b></label>
+                    
+                    <input type="date" name="fecha" id="fecha" required>
+                    
+                    <label for=""></label>
+                    <input type="time" name="time" id="time" required>
+                </div>
+            </div>
+
+
+            <div class="divRadio">
+
+
+                
+                <br>
+                <div class="place">
+
+                    <p><b> Place </b></p>
+
+                </div>
+                
+                
+                
+                <div class="radios">
+                <input type="radio" id="int" name="place" value="int">
+                <label for="int">Indoor</label>
+                <input type="radio" id="ext" name="place" value="ext">
+                <label for="ext">Outdoor</label>
+            </div>
+            </div>
+
+
+
+
+
+
+            <hr>
+            
+            <div id="divAlerg">
+
+            <label for="alergenos"><b>Allergens</b></label>
+            <textarea name="alergenos" id="alergenos"  rows="1" placeholder="Enter allergens:"></textarea>
+            
+
+            </div>
+            
+            
+            <fieldset>
+                
+
+            <input type="checkbox" name="terminos" id="terminos">
+            <label for="terminos">Accept <a href="#">Term and Conditions</a></label>
+
+
+
+
+
+            <button type="submit" class="registerbtn">Reserve</button>
+
+        </fieldset>
+        </div>
+        
+       
+      </form>
+
+
+
+</body>
+
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="img/Logo.png" alt="Logo">
+                </a>
+            </figure>
+        </div>
+        <div class="box sobreNosotros">
+            <h2>SOBRE NOSOTROS</h2>
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Condiciones</a></li>
+                <li><a href="#">Reserva ya cojones</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>    
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2021 <b>Benavides</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+</html>
