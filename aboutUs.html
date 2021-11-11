@@ -1,14 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nosotros</title>
+<DOCTYPE html>
+  <head>
+    <title>Menú</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style2.css" />
     <link rel="stylesheet" href="aboutUs.css">
-</head>
-<body>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/802c18c7c7.js" crossorigin="anonymous"></script>
+  </head>  
+  <header class="header">
+      <div class="divHeader">
+          <span class="logo">
+              <a href="index.html" class="enlaceLogo">
+                    <img src="img/Logo.png">
+              </a>
+          </span>
+          <input type="checkbox" id="botonMenu">
+          <label for="botonMenu" class="labelBoton"><img src="img/IconoMenu.png"></label>
+
+          <nav class="menuNavegacion">
+            <ul>
+              <li><a href="home.html">Home<p class="indicadorPaginaHome">.</p></a></li>
+              <li><a href="menu.html">Menú<p class="indicadorPaginaMenu">.</p></a></li>
+              <li><a href="galeria.html">Galería<p class="indicadorPaginaGaleria">.</p></a></li>
+              <li><a href="reserva.html">Reserva<p class="indicadorPaginaReserva">.</p></a></li>
+              <li><a href="contacto.html">Contacto<p class="indicadorPaginaContacto">.</p></a></li>
+            </ul>
+          </nav>
+      </div>
+  </header>
 <div id="contenedor">
+    <br>
     <h1>EQUIPO</h1>
         <p>Benavides no sería nada sin un gran personal, por eso contamos con el mejor equipo humano que hará que tu visita sea una experiencia 360º.</p>
             
@@ -16,39 +38,72 @@
             
         <p>Al frente Salva y Eli que llevan más de 10 años dirigiendo al equipo; y como hay amores que no desaparecen con el tiempo, ellos siguen enamorados de la cocina.</p>
     <div id="Salva">
-        <img src="slv.jpg" width="40%">
+        <img src="jav.jpeg" width="40%">
         <h3>Salva Pérez</h3>
         <h4>Gerente</h4>
             <hr>
-        <p class="just">Un enamorado de Benavides y su proyecto. Emprendedor nato de ideas muy claras. Pendiente de cada detalle, hace que todo funcione a la perfección.</p>
+        <p class="just">Un enamorado de Benavides y su proyecto. Emprendedor de ideas muy claras. Pendiente de cada detalle, hace que todo funcione a la perfección.</p>
     </div>
     <div id="Eli">
-        <img src="slv.jpg" width="40%">
+        <img src="eli.jpg" width="40%">
         <h3>Elisabet Villegas</h3>
-        <h4>Chef jefe</h4>
+        <h4>Chef jefa</h4>
         <hr>
-        <p>Creativa e innovadora en los fogones. Cuida con esmero el huerto ecológico de Benavides del que surte la cocina. Te dejará un buen sabor de boca.</p>
+        <p class="just">Creativa e innovadora en los fogones. Cuida con esmero el huerto ecológico de Benavides del que surte la cocina. Te dejará un buen sabor de boca.</p>
     </div>
     <div id="Flavio">
-        <img src="slv.jpg" width="40%">
+        <img src="fla.jpeg" width="40%">
         <h3>Flavio de Diego</h3>
         <h4>Chef</h4>
         <hr>
-        <p>Domador de ingredientes y ejecutor de nuestras creaciones culinarias, su pasión es crear platos únicos con los que deleitar a los clientes de Benavides. </p>
+        <p class="just">Domador de ingredientes y ejecutor de nuestras creaciones culinarias, su pasión es crear platos únicos con los que deleitar a los clientes de Benavides. </p>
     </div>
     <div id="Javi">
         <img src="slv.jpg" width="40%">
         <h3>Javier Campos</h3>
         <h4>Jefe de sala</h4>
         <hr>
-        <p>Dinámico, activo y luchador, es el más indicado para dirigir a todo nuestro equipo de sala. Siempre dispuestos para atenderte con una sonrisa. </p>
+        <p class="just">Dinámico, activo y luchador, es el más indicado para dirigir a todo nuetro equipo de sala. Siempre dispuesto para atenderte con una sonrisa y toda la amabilidad. </p>
     </div>
     <div id="Nacho">
-        <img src="slv.jpg" width="40%">
+        <img src="nac.jpg" width="40%">
         <h3>Nacho Martín</h3>
         <h4>Bartender</h4>
-        <p>Porque hay cocteles y luego están los cocteles de Nacho. Con su eterna sonrisa es capaz de que te enamores de sorprendentes sabores líquidos. </p>
+        <hr>
+        <p class="just">Porque hay cocteles y luego están los cocteles de Nacho. Con su eterna sonrisa es capaz de que te encandiles de sorprendentes sabores líquidos. </p>
     </div>
 </div>
+
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="img/Logo.png" alt="Logo">
+                </a>
+            </figure>
+        </div>
+        <div class="box sobreNosotros">
+            <h2>SOBRE NOSOTROS</h2>
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Condiciones</a></li>
+                <li><a href="#">Reserva ya</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>    
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2021 <b>Benavides</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
 </body>
 </html>
