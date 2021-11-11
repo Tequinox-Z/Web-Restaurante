@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/styles.css"/>
+    <link rel="stylesheet" href="CSS/styles-home.css" />
 </head>
+
 <body>
     <section id="first-section">
         <article>
             <div id="first">
-                <img src="img/food-home.png"/>
+                <img src="img/food-home.png" />
                 <div id="first-text">
                     <h1>Platos de primera calidad</h1>
                     <p class="text-secundary">Descúbrelos en nuestros restaurantes <span>🍴</span></p>
@@ -19,12 +21,37 @@
             </div>
         </article>
     </section>
-    <hr>
     <section id="gama">
-        <h1 id="sabores" class="title">Nuestro restaurante de un vistazo</h1>
+        <h1 id="sabores" class="title">Nuestro restaurante</h1>
         <div id="info-1">
-            <img id="food-img" src="img/plat3.jpg"/>
+
+        </div>
+        <div class="apartado">
+            <h3 class="title-section">Productos</h3>
+            <p class="text-explication">Ofrecemos una amplia gama de platos artesanales desde <b>1980</b>. Todos ellos etiquetados con información sobre sus ingredientes y alérgenos</p>
+            <img id="alergenos-imagen" src="img/tipos-alergenos.png" />
+        </div>
+        <div class="apartado">
+            <h3 class="title-section">¿Dónde encontrarnos?</h3>
+            <p class="text-explication">Puedes encontrarnos en varios lugares de España. Nuestra sede principal se encuentra en <b>Sevilla</b>. Para conocer la ubicación pulsa en la <b>siguiente imagen</b> o dirígite al apartado <b>Contacto</b></p>
+            <a href="html/contacto.html">
+                <img id="ubicacion-imagen" src="img/ubicacion.png" />
+            </a>
+        </div>
+        <div class="apartado">
+            <h3 class="title-section">¿Dónde encontrarnos?</h3>
+            <p class="text-explication">Puedes encontrarnos en varios lugares de España. Nuestra sede principal se encuentra en <b>Sevilla</b>. Para conocer la ubicación pulsa en la <b>siguiente imagen</b> o dirígite al apartado <b>Contacto</b></p>
+            <div class="videos">
+                <video class="video center" src="video/v1.mp4" preload controls></video>
+                <video class="video center" src="video/v2.mp4" preload controls></video>
+                <video class="video center" src="video/v3.mp4" preload controls></video>
+            </div>
+
         </div>
     </section>
+    <a id="floatReserva" href="hrml/reserva.html">
+        <img id="imgReserva" src="img/reserva.png" title="Reservar ahora" alt="Reservar ahora" />
+    </a>
 </body>
+
 </html>
