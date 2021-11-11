@@ -224,6 +224,74 @@ body{
     }
 
 
+     /* ###################### Pagina contacto */
+
+    
+     .localizacion{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        align-items: center;
+        display: flex;
+       padding-left: 5%;
+        
+        
+        
+        
+
+    }
+    .mapa{
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 49%;
+       
+       
+       
+        
+    }
+
+
+    .direccion{
+       
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 49%;
+        margin-top: 50px;
+        /* margin-left: 20px; */
+       
+       
+       
+    }
+    .direccion p{
+        padding: 10px;
+    }
+
+    .formularioContactoTitulo{
+        clear: both;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 30px;
+        border-top: 2px black solid;
+        margin-top: 50px;
+    }
+    .formContacto{
+        clear: both;
+    }
+   
+
+
+
+
+
+    
+
+
 
 /* -------Footer y Header para tablet--------- */
 
@@ -318,6 +386,65 @@ body{
     .box{
         text-align: center;
     }
+
+
+
+    /* ###################### Pagina contacto */
+
+    
+    .localizacion{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        display: block;
+        
+        
+
+    }
+    .mapa{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+       
+       
+       
+        
+    }
+
+    .mapaDireccion{
+        background-color: black;
+        
+    }
+
+    .direccion{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 50px;
+        /* margin-left: 20px; */
+       
+       
+       
+    }
+    .direccion p{
+        padding: 10px;
+    }
+
+    .formularioContactoTitulo{
+        clear: both;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 30px;
+        border-top: 2px black solid;
+        margin-top: 50px;
+    }
+    .formContacto{
+        clear: both;
+    }
 }
 /* -------Footer y Header para movil--------- */
 
@@ -409,7 +536,64 @@ body{
         align-items: center;
        
     }
+
+    /* ###################### Pagina contacto */
+
+    
+    .localizacion{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        display: block;
+        
+        
+
+    }
+    .mapa{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+       
+       
+       
+        
+    }
+
+    .mapaDireccion{
+        background-color: black;
+        
+    }
+
+    .direccion{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 50px;
+        /* margin-left: 20px; */
+       
+       
+       
+    }
+    .direccion p{
+        padding: 10px;
+    }
+
+    .formularioContactoTitulo{
+        clear: both;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 30px;
+        border-top: 2px black solid;
+        margin-top: 50px;
+    }
+    .formContacto{
+        clear: both;
+    }
 }
 
 
-@media screen and (max-width: 850px){}
+
