@@ -10,27 +10,6 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="divHeader">
-            <span class="logo">
-                <a href="index.html" class="enlaceLogo">
-                      <img src="img/Logo.png"/>
-                </a>
-            </span>
-            <input type="checkbox" id="botonMenu">
-            <label for="botonMenu" class="labelBoton"><img src="img/IconoMenu.png"></label>
-
-            <nav class="menuNavegacion">
-                <ul>
-                    <li><a href="home.html">Home<p class="indicadorPaginaHome">.</p></a></li>
-                    <li><a href="menu.html">Menú<p class="indicadorPaginaMenu">.</p></a></li>
-                    <li><a href="galeria.html">Galería<p class="indicadorPaginaGaleria">.</p></a></li>
-                    <li><a href="reserva.html">Reserva<p class="indicadorPaginaReserva">.</p></a></li>
-                    <li><a href="contacto.html">Contacto<p class="indicadorPaginaContacto">.</p></a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
     <section id="first-section">
         <article>
             <div id="first">
@@ -43,7 +22,7 @@
         </article>
     </section>
     <section id="gama">
-        <h1 id="title-main" class="title">Nuestro restaurante</h1>
+        <h1 id="sabores" class="title">Nuestro restaurante</h1>
         <div id="info-1">
 
         </div>
@@ -60,12 +39,12 @@
             </a>
         </div>
         <div class="apartado">
-            <h3 class="title-section">¿Qué ofrecemos?</h3>
-            <p class="text-explication">Aqui te mostramos algunos vídeos sobre nuestro restaurante, desde el trato de los clientes, como se hace la comida, etc...</p>
+            <h3 class="title-section">¿Dónde encontrarnos?</h3>
+            <p class="text-explication">Puedes encontrarnos en varios lugares de España. Nuestra sede principal se encuentra en <b>Sevilla</b>. Para conocer la ubicación pulsa en la <b>siguiente imagen</b> o dirígite al apartado <b>Contacto</b></p>
             <div class="videos">
-                <video class="video" src="video/v1.mp4" autoplay controls></video>
-                <video class="video" src="video/v2.mp4" autoplay controls></video>
-                <video class="video" src="video/v3.mp4" autoplay controls></video>
+                <video class="video center" src="video/v1.mp4" preload controls></video>
+                <video class="video center" src="video/v2.mp4" preload controls></video>
+                <video class="video center" src="video/v3.mp4" preload controls></video>
             </div>
 
         </div>

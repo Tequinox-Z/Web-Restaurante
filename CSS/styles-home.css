@@ -37,6 +37,8 @@ section {
     text-align: center;
 }
 
+@media (min-width: 650px) and (max-width: 1000px) {}
+
 @media (max-width: 650px) {
     .video {
         margin-top: 50px;
@@ -81,7 +83,7 @@ section {
         margin-top: 4px;
         font-size: 10px;
     }
-    #sabores {
+    #title-main {
         font-size: 17px;
         text-align: start;
         margin-left: 7%;
@@ -177,6 +179,7 @@ section {
 
 #imgReserva:hover {
     transform: rotateZ(360deg);
+    width: 120%;
 }
 
 .videos {
