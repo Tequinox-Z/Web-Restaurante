@@ -1,4 +1,4 @@
-<<<<<<< HEAD:cssReserva/reserva.css
+
 
 /* PANTALLAS */
 @media (min-width: 851px) {
@@ -462,8 +462,7 @@
 
 
 
-=======
->>>>>>> master:style.css
+
 html{
     position: relative
     
@@ -692,18 +691,20 @@ body{
 
     
      .localizacion{
-        width: 80%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 30px;
         align-items: center;
         display: flex;
        padding-left: 5%;
-        
-        
-        
-        
+    }
 
+    .containerGeneralContacto{
+        background-color: white;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .mapa{
         display: inline-block;
@@ -746,6 +747,14 @@ body{
     }
     .formContacto{
         clear: both;
+    }
+    .containerFormularioContacto{
+        padding: 16px;
+        background-color: rgb(255, 255, 255);
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+            
     }
    
 
