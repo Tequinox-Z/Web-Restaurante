@@ -1,9 +1,18 @@
+/*
+                                    Estilos generales 
+*/
+
 * {
     padding: 0;
     margin: 0;
     color: white;
     font-family: serif;
 }
+
+
+/*
+                                    Estilos específicos
+*/
 
 body {
     background-repeat: no-repeat;
@@ -23,6 +32,7 @@ header {
 
 html {
     background-color: black;
+    scroll-behavior: smooth;
 }
 
 .text-secundary {
@@ -41,9 +51,84 @@ section {
     text-align: center;
 }
 
-@media (min-width: 650px) and (max-width: 1000px) {}
+#first-text {
+    text-align: start;
+    font-size: 1.8vw;
+}
+
+#first>img {
+    width: 60%;
+}
+
+.title {
+    transition: 1s;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+#info-1 {
+    margin-top: 30px;
+}
+
+.text-explication {
+    color: rgb(236, 236, 236);
+}
+
+.title-section {
+    padding: 10px;
+}
+
+
+/** Botón flotante **/
+
+#floatReserva {
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+    width: 50px;
+    float: right;
+    z-index: 100;
+}
+
+#imgReserva {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    transition: 1s;
+}
+
+#imgReserva:hover {
+    transform: rotateZ(360deg);
+    width: 120%;
+}
+
+.videos {
+    text-align: center;
+    transition: 0.5s;
+}
+
+video {
+    box-shadow: 1px 1px 100px rgb(104, 60, 42);
+    transition: 0.5s;
+}
+
+figure>a>img {
+    margin-bottom: -2.4em;
+}
+
+#ubicacion-imagen:hover {
+    transition: 1s;
+}
+
+
+/*
+                                Dispositivos móviles y tablets
+*/
 
 @media (max-width: 650px) {
+    #first>img {
+        width: 80% !important;
+    }
     .video {
         margin-top: 50px;
         width: 90%;
@@ -106,6 +191,11 @@ section {
     }
 }
 
+
+/*
+                                Dispositivos con pantallas grandes
+*/
+
 @media (min-width: 650px) {
     video:hover {
         width: 30%;
@@ -138,74 +228,3 @@ section {
         margin-right: auto;
     }
 }
-
-#first-text {
-    text-align: start;
-    font-size: 1.8vw;
-}
-
-#first>img {
-    width: 60%;
-}
-
-.title {
-    transition: 1s;
-    text-align: center;
-    font-size: 2.5vw;
-}
-
-#info-1 {
-    margin-top: 30px;
-}
-
-.text-explication {
-    color: rgb(236, 236, 236);
-}
-
-.title-section {
-    padding: 10px;
-}
-
-
-/** Botón flotantes **/
-
-#floatReserva {
-    position: fixed;
-    bottom: 0px;
-    right: 30px;
-    width: 50px;
-    float: right;
-    z-index: 100;
-}
-
-#imgReserva {
-    margin-right: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    transition: 1s;
-}
-
-#imgReserva:hover {
-    transform: rotateZ(360deg);
-    width: 120%;
-}
-
-.videos {
-    text-align: center;
-    transition: 0.5s;
-}
-
-video {
-    box-shadow: 1px 1px 100px rgb(104, 60, 42);
-    transition: 0.5s;
-}
-
-figure>a>img {
-    margin-bottom: -2.4em;
-}
-
-#ubicacion-imagen:hover {
-    transition: 1s;
-}
-
-#ubicacion-imagen:hover {}

@@ -467,9 +467,12 @@ html{
     position: relative
     
 }
+
+
 body{
     margin-top: 80px;
     margin-bottom: 300px;
+    font-family: serif;
 }
     /* Header */
     .header{
@@ -528,7 +531,7 @@ body{
         margin: 0;
         padding: 0;
         list-style: none;
-        padding-right: 20px;
+        margin-right: -40px;
         display: flex;
     }
     
