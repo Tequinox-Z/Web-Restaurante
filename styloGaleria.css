@@ -9,7 +9,6 @@ div.galeria {
 
 .tituloGaleria {
     text-align: center;
-    font-size: 290%
 }
 
 
@@ -69,6 +68,7 @@ body {
     margin-bottom: 650px;
     background-color: black;
     color: white;
+    font-family: serif;
 }
 
 
