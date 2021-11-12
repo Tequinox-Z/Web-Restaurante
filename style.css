@@ -1,4 +1,4 @@
-<<<<<<< HEAD:cssReserva/reserva.css
+
 
 /* PANTALLAS */
 @media (min-width: 851px) {
@@ -462,8 +462,7 @@
 
 
 
-=======
->>>>>>> master:style.css
+
 html{
     position: relative
     
@@ -748,6 +747,14 @@ body{
     }
     .formContacto{
         clear: both;
+    }
+    .containerFormularioContacto{
+        padding: 16px;
+        background-color: rgb(255, 255, 255);
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+            
     }
    
 
