@@ -1,12 +1,18 @@
 
+body{
+
+    font-family: serif;
+}
+
 /* PANTALLAS */
+
+
 @media (min-width: 851px) {
    
         
     body {
-        font-family: Arial, Helvetica, sans-serif; /*Tipografia general*/
         background: rgb(0, 0, 0);            /*Fondo tras formulario*/
-        
+    
     }
 
     form * {
@@ -161,7 +167,6 @@
 
 
     body {
-        font-family: Arial, Helvetica, sans-serif; /*Tipografia general*/
         background-color: rgb(0, 0, 0);                /*Fondo tras formulario*/
     }
 
@@ -308,7 +313,6 @@
 
 
     .bodyReserva {
-        font-family: Arial, Helvetica, sans-serif; /*Tipografia general*/
         background-color: rgb(0, 0, 0);   
         margin-left: 0px;        
         margin-right: 0px;
