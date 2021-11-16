@@ -1,13 +1,31 @@
+/*
+                                                Estilos generales
+*/
+
+/*
+    Animaciones
+*/ 
+    span.logo {
+        transition: 1s;
+    }
+
+    span.logo:hover {
+        transform: rotateZ(360deg);
+    }
+
+    .menuNavegacion ul li a {
+        transition: 0.5s;
+    }
 
 
 /* PANTALLAS */
+
 @media (min-width: 851px) {
    
         
     body {
-        font-family: Arial, Helvetica, sans-serif; /*Tipografia general*/
-        background: rgb(0, 0, 0);            /*Fondo tras formulario*/
-        
+        font-family: Arial, Helvetica, sans-serif;              /*Tipografia general*/
+        background: rgb(0, 0, 0);                             /*Fondo tras formulario*/
     }
 
     form * {
@@ -15,16 +33,12 @@
     }
 
     form .banner img{
-
         width: 100%;
-        
     }
     
     form .banner{
-
-        
-    display:    inline-block;  
-    width: 20%;
+        display: inline-block;  
+        width: 20%;
     }
 
     form .banner2{display: none;}
@@ -467,9 +481,12 @@ html{
     position: relative
     
 }
+
+
 body{
     margin-top: 80px;
     margin-bottom: 300px;
+    font-family: serif;
 }
     /* Header */
     .header{
@@ -528,7 +545,7 @@ body{
         margin: 0;
         padding: 0;
         list-style: none;
-        padding-right: 20px;
+        margin-right: -40px;
         display: flex;
     }
     
@@ -552,7 +569,7 @@ body{
        font-size: 50px;
        position: absolute;
        margin-top: -79px;
-       margin-left: 18px;
+       margin-left: 14px;
     }
     .indicadorPaginaMenu{
         color: white;
@@ -755,6 +772,11 @@ body{
         margin-right: auto;
         margin-left: auto;
             
+    }
+
+    .tituloContacto{
+        color: white;
+        text-align: center;
     }
    
 
@@ -1067,3 +1089,4 @@ body{
         clear: both;
     }
 }
+
