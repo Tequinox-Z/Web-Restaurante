@@ -71,6 +71,6 @@ h1{
   width: 90%;
   margin-left:1.2em;
 }
-   @media (min-width: 850px) {#Javi{float:center} #Salva, #Eli, #Flavio{ float: left;} #Nacho,#Salva,#Javi,#Eli,#Flavio{width: 30%; margin-bottom: 1.5em; margin-left: 1.8em;} img{margin-bottom: 0.5em;}}  
+   @media (min-width: 850px) {#Javi{float:center} #Salva, #Eli, #Flavio{ float: left;} #Nacho,#Salva,#Javi,#Eli,#Flavio{width: 30%; margin-bottom: 1.5em; margin-left: 1.8em;font-size: 1.3vw;  } img{margin-bottom: 0.5em;}}  
    @media (min-width: 451px) and (max-width: 850px) {#Nacho{float:center}  #Salva,#Javi,#Eli,#Flavio{float:left} #Nacho, #Salva,#Javi,#Eli,#Flavio{width: 45%; margin-left:1.5em; margin-bottom: 1.5em;} img{margin-bottom: 0.5em; width:55%}}  
   @media (max-width: 450px) {#Nacho,#Salva,#Javi,#Eli,#Flavio{width: 90%;     display: inline-block; margin-left:0.2em; margin-bottom: 1.5em;} img{margin-bottom: 0.5em; width:60%}}  
