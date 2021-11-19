@@ -143,6 +143,9 @@ figure>a>img {
 */
 
 @media (max-width: 650px) {
+    #zoom {
+        display: none;
+    }
     #first>img {
         width: 80% !important;
     }
@@ -175,7 +178,7 @@ figure>a>img {
         position: absolute;
         width: 80%;
         left: 11%;
-        top: 30.5%;
+        top: 29.5%;
         z-index: 1;
     }
 
@@ -196,7 +199,7 @@ figure>a>img {
         animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-name: persona-animate;
-        top: 36.6%;
+        top: 35.6%;
         left: 30%;
         position: absolute;
         width: 25%;
@@ -239,18 +242,51 @@ figure>a>img {
 }
 
 @media (min-width: 850px) {
+
     #ubicacion-imagen {
         top: 47% !important;
     }
     #persona {
         top: 59% !important;
     }
+    #alergenos-imagen {
+        display: block;
+        margin: 20px auto;  
+      }
+      
+      #zoom-img {
+        pointer-events: none;
+        position: relative;
+        top: 68%;
+        left: 50%;
+      }
+      
+      #zoom {
+        display: block !important;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        box-shadow: 0 0 0 2px rgb(181, 108, 0),
+          5px 5px 10px 5px rgba(0,0,0,0.2);
+        border-radius: 50%;  
+        top: 570px;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        pointer-events: none;
+        visibility: hidden;
+        opacity: 0;
+      }
+      
 }
 /*
                                 Dispositivos con pantallas grandes
 */
 
 @media (min-width: 650px) {
+    #zoom {
+        display: none;
+    }
     video:hover {
         width: 30%;
     }
@@ -399,3 +435,5 @@ span > a > img {
 }
 
 */
+
+

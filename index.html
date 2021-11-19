@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link rel="stylesheet" href="CSS/styles-home.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/styles-home.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/802c18c7c7.js" crossorigin="anonymous"></script>
 </head>
 
@@ -27,11 +27,11 @@
             <nav class="menuNavegacion">
                 <ul>
                     <li><a href="#up">Home<p class="indicadorPaginaHome">.</p></a></li>
-                    <li><a href="menu.html">Menú<p class="indicadorPaginaMenu"></p></a></li>
-                    <li><a href="galeria.html">Galería<p class="indicadorPaginaGaleria"></p></a></li>
-                    <li><a href="reserva.html">Reserva<p class="indicadorPaginaReserva"></p></a></li>
-                    <li><a href="contacto.html">Contacto<p class="indicadorPaginaContacto"></p></a></li>
-                    <li><a href="aboutUs.html">Equipo</a></li>
+                    <li><a href="html/menu.html">Menú<p class="indicadorPaginaMenu"></p></a></li>
+                    <li><a href="html/galeria.html">Galería<p class="indicadorPaginaGaleria"></p></a></li>
+                    <li><a href="html/reserva.html">Reserva<p class="indicadorPaginaReserva"></p></a></li>
+                    <li><a href="html/contacto.html">Contacto<p class="indicadorPaginaContacto"></p></a></li>
+                    <li><a href="html/aboutUs.html">Equipo</a></li>
                 </ul>
             </nav>
         </div>
@@ -56,6 +56,9 @@
             <h3 class="title-section">Productos</h3>
             <p class="text-explication">Ofrecemos una amplia gama de platos artesanales desde <b>1980</b>. Todos ellos etiquetados con información sobre sus ingredientes y alérgenos</p>
             <img id="alergenos-imagen" src="img/tipos-alergenos.png" />
+            <div id="zoom">
+                <img id="zoom-img" />
+            </div>  
         </div>
         <div id="apartado-restaurante" class="apartado">
             <h3 class="title-section">¿Dónde encontrarnos?</h3>
@@ -76,7 +79,7 @@
 
         </div>
     </section>
-    <a id="floatReserva" href="reserva.html">
+    <a id="floatReserva" href="html/reserva.html">
         <img id="imgReserva" src="img/reserva.png" title="Reservar ahora" alt="Reservar ahora" />
     </a>
     <footer class="pie-pagina">
@@ -115,6 +118,7 @@
         <img id="loading-img" src="img/logo-loading.png">
         <div class="spin"></div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
