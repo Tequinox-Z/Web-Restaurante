@@ -45,6 +45,6 @@ h3{
 
   
 
-   @media (min-width: 850px) {#caja{width: 45%; margin-bottom: 1.5em; margin-left: 2em;  padding-left: 0.8em; } img{margin-bottom: 1em;}}  
+   @media (min-width: 850px) {#caja{width: 45%; margin-bottom: 1.5em; margin-left: 2em;  padding-left: 0.8em; } img{margin-bottom: 1em;} #text{font-size: 1.3vw; }}  
    @media (min-width: 451px) and (max-width: 850px) {#caja{width: 90%;margin-bottom: 1em;   margin-left: 1.7em;  padding-left: 0.8em;  } img{margin-bottom: 0.9em;}}
-  @media (max-width: 450px) {#caja{width: 90%; margin-bottom: 1em;  margin-left: 0.7em; padding-left:0.6em } img{width:60%; margin-bottom:0.8em; }} #texto{width: 90%;}
+  @media (max-width: 450px) {#caja{width: 90%; margin-bottom: 1em;  margin-left: 0.6em; padding-left:0.6em } img{width:60%; margin-bottom:0.8em; }} #texto{width: 90%;}
