@@ -37,7 +37,7 @@ function init() {
   TweenLite.set(zoom, { autoAlpha: 0, scale: 0 });
   
   enterTL
-    .to(mainImg, 0.5, { filter: "grayscale(1)", "-webkit-filter": "grayscale(1)" }, 0)
+    .to(mainImg, 0.5, {filter: "blur(4px)" }, 0)
     .to(zoom, 0.5, { autoAlpha: 1, scale: 1 }, 0)
     
   window.addEventListener("resize", resize);  
